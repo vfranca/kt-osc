@@ -1,16 +1,8 @@
-import sys
+# Calcula variação percentual de b em a
 
 
-a = float(sys.argv[2])
-b = float(sys.argv[1])
-
-
-def var(a, b):
-    "Calcula a variação percentual de b em a." ""
-    var_absoluta = a - b
-    var_percentual = var_absoluta / a * 100
+def var(preco_final, preco_inicial):
+    "Calcula a variação percentual entre dois precos." ""
+    var_absoluta = preco_final - preco_inicial
+    var_percentual = var_absoluta / preco_inicial * 100
     return "%.1f%%" % var_percentual
-
-
-if __name__ == "__main__":
-    print(var(a, b))
