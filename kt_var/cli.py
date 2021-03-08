@@ -6,7 +6,7 @@ import click
 @click.argument("preco-final")
 @click.argument("preco-inicial")
 def cli(preco_final, preco_inicial):
-    """Calcula variacao percentual de b em a."""
+    """Calcula variacao percentual entre preco final e preco inicial."""
     click.echo(var.var(float(preco_final), float(preco_inicial)))
 
 
