@@ -1,10 +1,8 @@
-# kt-var
-Ferramenta de linha de comando para calcular variação percentual.  
-
-Este pacote compõe o kit do trader.  
+# kt-osc
+Ferramenta de linha de comando para calcular oscilação do preço em relação ao último fechamento.  
 
 ## Instalação
-pip install kt-var
+pip install kt-osc
 
 ## Uso
-var preco-final preco-inicial  
+osc preco-final preco-inicial  
