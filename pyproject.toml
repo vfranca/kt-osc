@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "kt-osc"
-version = "0.2.0"
+version = "0.2.1"
 description = "Calcula oscilacao de preco"
 authors = ["Valmir Franca <vfranca3@gmail.com>"]
 license = "GPL-2.0-only"

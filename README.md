@@ -1,8 +1,25 @@
 # kt-osc
-Ferramenta de linha de comando para calcular oscilação do preço em relação ao último fechamento.  
+Calcula oscilação percentual do preço.  
+
+## Pré-requisitos
+Python instalado e disponível no terminal de comandos.  
 
 ## Instalação
-pip install kt-osc
+```cmd
+> pip install kt-osc
+```
 
 ## Uso
-osc preco-final preco-inicial  
+```cmd
+> osc <PRECO-FINAL> <PRECO-INICIAL>
+```
+Onde:  
+PRECO-FINAL é o preço final da oscilação.  
+PRECO-INICIAL é o preço inicial da oscilação.  
+Exemplo:  
+```cmd
+> osc 99.81 94.89
+5.2%
+```
+A oscilação percentual entre 94.89 e 99.81 é 5.2%.  
+
